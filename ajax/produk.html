@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="ajax/bootstrap/css/bootstrap.css" />
+        <style>
+            @import url("http://fonts.cdnfonts.com/css/heavitas");
+            @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+            .slide {
+                animation: anm cubic-bezier(0.43, 0.44, 0.36, 1.35) 0.5s;
+            }
+
+            @keyframes anm {
+                from {
+                    transform: translateX(2000px);
+                }
+                to {
+                    transform: translateX(0);
+                }
+            }
+
+            .card {
+                width: 14rem !important;
+            }
+
+            .card h5 {
+                font-family: "Heavitas", sans-serif;
+            }
+
+            .card p {
+                font-family: "Righteous", cursive;
+                font-size: 0.8rem;
+            }
+
+            .card-body h5 {
+                color: #ff9100;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container slide">
+            <div class="row">
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/bawang.png" class="card-img-top p-3" alt="bawang" />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">kerupuk bawang</h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#bawang"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="bawang" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk bawang</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/bawang.png" class="card-img-top p-3 w-50" alt="bawang" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/emping_manis.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">
+                                emping <br />
+                                manis
+                            </h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#empingManis"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="empingManis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">emping manis</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/emping_manis.png" class="card-img-top p-3 w-50" alt="jahe gajah" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/emping_pedas.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">
+                                emping <br />
+                                pedas
+                            </h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#empingPedas"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="empingPedas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">emping pedas</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/emping_pedas.png" class="card-img-top p-3 w-50" alt="jahe_emprit2" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/emping.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">
+                                emping <br />
+                                melinjo
+                            </h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#emping"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="emping" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">emping melinjo</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/emping.png" class="card-img-top p-3 w-50" alt="jahe_merah2" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/gendar.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">
+                                kerupuk <br />
+                                gendar
+                            </h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kerupukGendar"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="kerupukGendar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk gendar</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/gendar.png" class="card-img-top p-3 w-50" alt="kerupuk gendar" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/mawar_jumbo.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">kerupuk mawar jumbo</h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kerupukMJ"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="kerupukMJ" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk mawar jumbo</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img
+                                                src="ajax/produk/mawar_jumbo.png"
+                                                class="card-img-top p-3 w-50"
+                                                alt="kerupuk mawar jumbo2"
+                                            />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/kunyit_super.jpg" class="card-img-top p-3" alt="..." />
+                        <div class="card-body">
+                            <h5 class="text-center">kunyit super</h5>
+                    
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/mawar.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">
+                                kerupuk <br />
+                                mawar
+                            </h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kerupukM"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="kerupukM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk mawar</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/mawar.png" class="card-img-top p-3 w-50" alt="lengkuas_gunung2" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/mie_kuning.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">kerupuk mie kuning</h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kerupukMK"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="kerupukMK" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk mie kuning</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/mie_kuning.png" class="card-img-top p-3 w-50" alt="lengkuas_gunung2" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/pelangi.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">
+                                kerupuk <br />
+                                warna-warni
+                            </h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kerupukW"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="kerupukW" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk warna-warni</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/pelangi.png" class="card-img-top p-3 w-50" alt="lengkuas_gunung2" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/sari_udang.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">kerupuk sari udang</h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kerupukS"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="kerupukS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk sari udang</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/sari_udang.png" class="card-img-top p-3 w-50" alt="lengkuas_gunung2" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/singkong.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">
+                                kerupuk <br />
+                                singkong
+                            </h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kerupukSing"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="kerupukSing" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk singkong</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/singkong.png" class="card-img-top p-3 w-50" alt="lengkuas_gunung2" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-grid justify-content-center">
+                    <div class="card mb-5 bg-body rounded" style="width: 18rem; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)">
+                        <img src="ajax/produk/udang.png" class="card-img-top p-3" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="text-center">
+                                kerupuk <br />
+                                udang
+                            </h5>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kerupukU"
+                                style="font-size: 0.7rem"
+                            >
+                                Lihat Detail
+                            </button>
+                            <!-- akhir Button trigger modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="kerupukU" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">kerupuk udang</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="ajax/produk/udang.png" class="card-img-top p-3 w-50" alt="lengkuas_gunung2" />
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir Modal -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
